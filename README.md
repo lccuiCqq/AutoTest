@@ -1,2 +1,1 @@
-# AutoTest
-基于java的接口自动化测试
+#基于Java的UI自动化-selenium
