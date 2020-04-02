@@ -11,8 +11,8 @@ public class Hello {
         System.setProperty("webdriver.chrome.driver","D:\\drivers\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://www.imooc.com/user/newlogin");
-        driver.findElement(By.name("email")).sendKeys("1403330102@qq.com");
-        driver.findElement(By.name("password")).sendKeys("82855033.clc");
+        driver.findElement(By.name("email")).sendKeys("1234@qq.com");
+        driver.findElement(By.name("password")).sendKeys("1234.clc");
         driver.findElement(By.className("moco-btn")).click();
 
 
